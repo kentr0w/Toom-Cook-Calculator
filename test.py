@@ -11,7 +11,7 @@ class ToomCalculatorTest(unittest.TestCase):
         second = BigNumber("987654321987654321098")
         calculator = ToomCookCalculator(first, second)
         result = calculator.calculate()
-        self.assertEqual(result.number, "12193263124676116324937600952085858861751760")
+        self.assertEqual(result.number, "1219326312467611632493760095208585886175176")
 
     def test_random_value(self):
         for i in range(1):
