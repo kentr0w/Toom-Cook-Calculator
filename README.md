@@ -12,6 +12,10 @@ will require write number again until number will be correct.
 Also, you can read some information received during multiplication in logs.log file.
 To run test just write `pytest test.py`
 
+## Comparation
+![alt text](https://github.com/kentr0w/Toom-Cook-Calculator/blob/master/compare.jpg)
+
+
 ## How does it work
 
 The algorithm has five main steps:
