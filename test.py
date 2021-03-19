@@ -14,7 +14,7 @@ class ToomCalculatorTest(unittest.TestCase):
         self.assertEqual(result.number, "1219326312467611632493760095208585886175176")
 
     def test_random_value(self):
-        for i in range(1):
+        for i in range(100):
             f = random.randint(1, 1000)
             s = random.randint(1, 1000)
             first = BigNumber(str(f))
